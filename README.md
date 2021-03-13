@@ -6,6 +6,7 @@ The purpose of this election audit analysis is to implement for loops and condit
 ## Results
 
 * How many votes were cast in this congressional election?
+
 The total number of votes that were casted in this congressional election is 369,711 votes.
 
 * Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
@@ -29,4 +30,18 @@ The number of votes that Charles Casper Stockham received from the congressional
 
 The candidate that won the election is Diana Degette. She received 272,892 votes, which was 73.8% of the total votes.
 
-## Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+## Summary
+
+The script that I have created can be implemented to future elections with a few modifications. This code is ideal because it has empty lists and dictionaries which is showed from the picture below. 
+
+![Screenshot (6)](https://user-images.githubusercontent.com/49353083/111043835-d1dafe80-8412-11eb-96fd-22b21a76ed36.png)
+
+One way to modify this Python code is by creating a state list and state votes dictionary and analyze the total number of votes were made by states. It can be written as 
+
+state_list = []
+
+state_votes = {}
+
+The total number of votes would be the sum of votes from all of the states. Another way to modify the code is by adding different level of officials. For example, having a list and dictionary made for mayors, House of Representatives, and other elected officials. The code would consist of having variables that has the winning candidate, the total votes from that candidate, and the percentage from the total vote from that cadidate. The declaration of these lists and dictionaries will be similar to the picture provided:
+
+![Screenshot (7)](https://user-images.githubusercontent.com/49353083/111044201-1bc4e400-8415-11eb-99cb-ca11251d910d.png)
